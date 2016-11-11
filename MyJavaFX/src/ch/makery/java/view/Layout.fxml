@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="503.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="232.0" layoutY="152.0" prefHeight="503.0" prefWidth="663.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <AnchorPane prefHeight="81.0" prefWidth="663.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="71.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="14.0">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/javaFX2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <GridPane prefHeight="438.0" prefWidth="649.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/javaFX.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <effect>
+                        <SepiaTone />
+                     </effect>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" styleClass="mytittle" stylesheets="@../../../../../bin/ch/makery/java/view/application.css" text="School of AID">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" text="A great proyect!" textAlignment="CENTER">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <children>
+                        <HBox alignment="CENTER_RIGHT" layoutX="21.0" layoutY="60.0" prefHeight="167.0" prefWidth="221.0" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Button alignment="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" styleClass="mybutton" stylesheets="@../../../../../bin/ch/makery/java/view/application.css" text="DIE">
+                                 <HBox.margin>
+                                    <Insets top="70.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                                 <tooltip>
+                                    <Tooltip text="click me!" />
+                                 </tooltip>
+                              </Button>
+                              <Button alignment="CENTER" mnemonicParsing="false" styleClass="mybutton" stylesheets="@../../../../../bin/ch/makery/java/view/application.css" text="ALIVE">
+                                 <HBox.margin>
+                                    <Insets right="25.0" top="70.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                                 <tooltip>
+                                    <Tooltip text="click me!" />
+                                 </tooltip>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
