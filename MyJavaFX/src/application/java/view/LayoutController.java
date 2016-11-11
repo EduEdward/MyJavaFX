@@ -1,4 +1,4 @@
-package ch.makery.java.view;
+package application.java.view;
 
 public class LayoutController {
 
